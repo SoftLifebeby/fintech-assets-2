@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #fceeee;
+  --first-color: #f2f7f8;
   --text-color: hsl(38, 8%, 8%);
 
   /*========== Font and typography ==========*/
@@ -118,6 +118,23 @@ img {
   cursor: pointer;
 }
 
+.nav_btn {
+  border: solid black 0.3px;
+  color: black;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  border-radius: 0.6rem;
+  margin-right: 0.7rem;
+}
+.nav_button {
+  background-color: black;
+  color: white;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  border-radius: 0.6rem;
+  margin-right: 0.7rem;
+}
+
 @media screen and (max-width: 767px) {
   .nav_menu {
     position: fixed;
@@ -150,6 +167,13 @@ img {
   align-items: center;
 }
 
+.subtitle {
+  background-color: #0089ff;
+  padding: 0.6rem 2rem;
+  color: white;
+  border-radius: 2rem;
+}
+
 .home_title {
   font-size: var(--biggest-font-size);
   margin: 0.75rem 0;
@@ -161,7 +185,7 @@ img {
   color: white;
   padding: 1rem 1.5rem;
   display: inline-block;
-  border-radius: 0.2rem;
+  border-radius: 0.6rem;
   transition: 0.5s;
 }
 
